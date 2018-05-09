@@ -1,0 +1,341 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio (https://startbootstrap.com/template-overviews/stylish-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */
+
+/* Global Styles */
+
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .text-vertical-center {
+    
+    text-align: center;
+    vertical-align: middle;
+    margin-top : 13em;
+    color: white;
+  }
+  
+  .text-vertical-center h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Custom Button Styles */
+  
+  .btn-dark {
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    background-color: #61892F;
+  }
+  
+  .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+  }
+  
+  .btn-light {
+    color: #333;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .btn-light:hover, .btn-light:focus, .btn-light:active {
+    color: #333;
+    background-color: rgba(255, 255, 255, .8);
+  }
+  
+  
+  /* Custom Horizontal Rule */
+  
+  hr.small {
+    max-width: 100px;
+  }
+  
+  
+  /* Side Menu */
+  
+  /* New horizontal nav bar*/
+  .sidebar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6B6E70;
+  }
+  
+  .sidebar-nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .sidebar-nav>.sidebar-brand {
+    float: left;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .sidebar-nav li a:hover {
+    background-color: #111;
+  }
+  /* end horizontal nav sidebar */
+  
+  /* #sidebar-wrapper {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    overflow-y: auto;
+    width: 250px;
+    height: 100%;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    transform: translateX(250px);
+    background: #222;
+  }
+  
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    line-height: 40px;
+    text-indent: 20px;
+    
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+  }
+  
+  .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+  }
+  
+  .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+  
+  .sidebar-nav>.sidebar-brand {
+    font-size: 18px;
+    line-height: 55px;
+    height: 55px;
+  }
+  
+  .sidebar-nav>.sidebar-brand a {
+    color: #999;
+  }
+  
+  .sidebar-nav>.sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+  
+  #menu-toggle {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+  }
+  
+  #sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+  }
+  
+  .toggle {
+    font-size: 1em;
+    margin: 5px 5px 0 0;
+    padding: 15px 20px;
+  } */
+  
+  
+  /* Header */
+  #phoneNumber {
+    font-size: 35px;
+  
+  }
+  .header {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url('../img/header_imagev2.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #overlay {
+    position: absolute; /* Sit on top of the page content */
+    display:inline-block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */  top: 0; 
+   
+    background-color: rgba(0, 0, 0, 0.767);
+     /* Black background with opacity */
+    /* Specify a stack order in case you're using a different order for other elements */
+  }
+  /* About */
+  
+  .about {
+    padding: 50px 0;
+  }
+  
+  
+  /* Services */
+  
+  .services {
+    padding: 50px 0;
+    background-color: #6B6E70;
+    border-width:.25px;
+    border-style:solid;
+    border-color: #474B4F;  
+  }
+  
+  .service-item {
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Callout */
+  
+  .callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/header_image.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  /* Portfolio */
+  
+  .portfolio {
+    padding: 50px 0;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .img-portfolio {
+    margin: 0 auto;
+    height: 332px;
+  }
+  
+  .img-portfolio:hover {
+    opacity: .8;
+  }
+  
+  
+  /* Call to Action */
+  
+  .call-to-action {
+    padding: 50px 0;
+    background-color: #6B6E70;
+  }
+  
+  .call-to-action .btn {
+    margin: 10px;
+  }
+  
+  /* Top Contact number */
+  #top-number {
+    font-size: 1.25em;
+    position: absolute;
+    top:0;
+    right:0;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Map */
+  
+  .map {
+    height: 500px;
+  }
+  
+  @media(max-width:768px) {
+    .map {
+      height: 75%;
+    }
+  }
+  
+  .map iframe {
+    pointer-events: none;
+  }
+  
+  /* Footer */
+  
+  footer {
+    padding-top: 75px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-left:0;
+  }
+  #to-top {
+    font-size: 1em;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    padding: 15px 20px;
+  }
+  /* message for contact form */
+  #success_message{ display: none;}
+  
+  #service1{
+    float: left;
+  }
+  #service2{
+    float: right;
+  }
+  #service3{
+    float:left;
+  }
+  
+  
